@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+</head>
+<body>
+
+    <input type="text" id="email" name="email">
+    <input type="password" id="password" name="password">
+
+    <input type="button" value="点击按钮" id="clk">
+
+</body>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script>
+
+    $("#clk").click(function () {
+
+        var email = $("#email").val()
+        var password = $("#password").val()
+
+        $.ajax({
+            url: "identity/login",
+            type: "post",
+            data: JSON.stringify({
+                email: email,
+                password: password
+            }),
+            contentType: "application/json",
+            success: (res) => {
+                // console.log(res)
+            }
+        })
+    })
+
+</script>
+</html>

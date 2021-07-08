@@ -1,0 +1,28 @@
+gender:性别
+star：星座
+customAsk:客服咨询频率
+age-step： 年龄段
+avgPrice: 客单价
+maxPerOrder:单笔最高
+origin:籍贯
+politicalFace: 政治面貌
+costForce_n： 消费能力
+frequency：消费周期
+discount_n：省钱能手
+nationality：国籍
+paymentCode：支付方式
+buyFrequency：购买频率
+logFrequency: 登陆频率
+marriage：婚姻状况
+browserTime：浏览时长
+browsingPeriod：浏览时段
+job： 职业
+recent：最近登录
+email：邮箱
+machineType：设备类型
+username： 用户姓名
+back：退货率
+change：换货率
+
+
+券必买、浏览页面、访问频率

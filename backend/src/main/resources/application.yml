@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    # 使用druid数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://159.75.73.208:3306/label?useUnicode=true&characterEncoding=UTF-8&serverTimezone=CST
+    username: dbuser
+    password: Suncaper123!
